@@ -1,0 +1,48 @@
+/* BASE COMMON */
+.pinter_logo {
+  font-family: "Black Han Sans", sans-serif;
+}
+
+/* HEADER */
+.pinter_header {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+/* FOOTER */
+.pinter_footer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.pinter_footer_button {
+  font-size: 0.8rem;
+}
+
+.pinter_footer_logoBox {
+  margin-top: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: rgba(94, 13, 82, 0.533);
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+.pinter_header_nav {
+  margin: 0 0.7rem;
+}
+
+.pinter_header_navbar {
+  margin: 1rem 0;
+}
